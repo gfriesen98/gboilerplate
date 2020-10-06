@@ -1,0 +1,28 @@
+{
+  "name": "greact-boilerplate",
+  "version": "1.0.0",
+  "description": "A script to download my React boilerplate code.",
+  "main": "index.js",
+  "scripts": {
+    "gboilerplate": "gboilerplate"
+  },
+  "bin": {
+    "gboilerplate": "index.js"
+  },
+  "keywords": [],
+  "author": "Garett Friesen",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "cli-spinners": "^2.4.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.1",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "minimist": "^1.2.5",
+    "ora": "^5.1.0",
+    "simple-git": "^2.20.1",
+    "yargs": "^16.0.3"
+  }
+}
