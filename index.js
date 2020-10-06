@@ -5,10 +5,7 @@ const clear = require('clear');
 const fs = require('fs');
 const path = require('path');
 const git = require('simple-git');
-const ora = require('ora');
 const {exec} = require('child_process');
-const clui = require('clui');
-const Spinner = clui.Spinner;
 
 // check args for dirname
 const args = process.argv.slice(2);
@@ -39,6 +36,7 @@ function editPackageJSON(name){
 
 /**
  * Takes in a directory and removes it and it's content
+ * Essentially rm -Rf [folder]
  * Snippet from https://gist.github.com/tkihira/2367067
  * @param {string} dir 
  */
