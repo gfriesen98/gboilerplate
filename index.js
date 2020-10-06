@@ -6,6 +6,8 @@ const fs = require('fs');
 const path = require('path');
 const git = require('simple-git');
 const {exec} = require('child_process');
+const clui = require('clui');
+const Spinner = clui.Spinner;
 
 // check args for dirname
 const args = process.argv.slice(2);
